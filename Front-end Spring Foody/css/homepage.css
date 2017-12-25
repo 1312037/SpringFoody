@@ -1,3 +1,7 @@
+.btnReadMore {
+	text-transform: none;
+}
+
 /* Removes the default 20px margin and creates some padding space for the indicators and controls */
 .carousel {
 	margin-bottom: 0;
@@ -23,6 +27,35 @@
 }
 .carousel-indicators .active {
 	background: #333333;
+}
+
+.header-deals {
+	text-align: center;
+	font-weight: 700;
+	font-size: 28px;
+}
+
+.hot-deals-detail .container {
+	border: 1px solid #D5D5D5;
+}
+
+.nav-header-deals {
+	font-size: 20px;
+    padding: 10px;
+    color: #F44336;
+    border-bottom: 1px solid #D5D5D5;
+}
+
+.info-hot-deals {
+	padding:  10px;
+}
+
+.info-hot-deals .description {
+	border-bottom: 1px solid #D5D5D5;
+}
+
+.description h4 {
+	font-size: 15px;
 }
 
 .item-promotion {
