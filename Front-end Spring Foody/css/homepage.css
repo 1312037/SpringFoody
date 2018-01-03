@@ -41,9 +41,9 @@
 
 .nav-header-deals {
 	font-size: 20px;
-    padding: 10px;
-    color: #F44336;
-    border-bottom: 1px solid #D5D5D5;
+	padding: 10px;
+	color: #F44336;
+	border-bottom: 1px solid #D5D5D5;
 }
 
 .info-hot-deals {
@@ -67,21 +67,64 @@
 }
 
 .item-name {
-    font-size: 13px;
-    font-weight: 700;
-    color: #000;
-    margin: 0 0 7px;
+	font-size: 13px;
+	font-weight: 700;
+	color: #000;
+	margin: 0 0 7px;
 }
 
 .txt-elipsis {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 100%;
 }
 
 .item-address {
-    font-size: 12px;
-    color: #888;
+	font-size: 12px;
+	color: #888;
 }
 
+/* icon bar 
+========================================*/
+.icon-bar {
+	position: fixed;
+	bottom: 2.08%;
+	right: 2.08%;
+	background-color: #555;
+	z-index: 1;
+}
+
+.icon-bar a {
+	width: 55px;
+	padding: 10px;
+	font-size: 25px;
+	color: white;
+	display: block;
+	text-align: center;
+	transition: all 0.3s ease;
+}
+
+.icon-bar a:hover {
+	background-color: #4CAF50;
+}
+
+.active {
+	background-color: #4CAF50 !important;
+}
+/*end of icon bar*/
+
+/* animated search input
+========================================*/
+.search .btnSearch {
+	background-color: #4CAF50;
+	border-color: #4CAF50;
+	font-size: 16px;
+}
+
+.search .btnClose {
+	background-color: #4CAF50;
+	border-color: #4CAF50;
+	font-size: 16px;
+}
+/* end of animated search input */

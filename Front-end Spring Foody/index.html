@@ -39,8 +39,8 @@
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse col-lg-7" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
+				<div class="collapse navbar-collapse col-lg-6" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav" style="display: none;">
 						<li>
 							<a class="page-scroll" href="#navHotDeals">Hot deals food</a>
 						</li>
@@ -59,8 +59,19 @@
 					</ul>
 				</div>
 
-				<div class="collapse navbar-collapse col-lg-4 pull-right" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
+				<ul class="nav navbar-nav search" style="padding: 15px;">
+					<li>
+						<input type="text" placeholder="Search.." name="search2">
+					</li>
+					<li>
+						<button type="button" class="btnClose" id="btnClose"><i class="fa fa-close"></i></button>
+					</li>
+					<li>
+						<button type="button" class="btnSearch" id="btnSearch" style="font-size: 14px;"><i class="fa fa-search"></i></button>
+					</li>
+				</ul>
+				<div class="collapse navbar-collapse col-lg-4" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right" style="position: relative;">
 						<li>
 							<a class="page-scroll" href="#navdeals"><span class="fa fa-user"></span>&#32;Sign Up</a>
 						</li>
@@ -593,6 +604,13 @@
 		</div>
 	</section>
 
+	<div class="icon-bar">
+		<a href="#"><i class="fa fa-home"></i></a> 
+		<a href="#"><i class="fa fa-shopping-cart"></i></a>
+		<a href="#"><i class="fa fa-envelope"></i></a> 
+		<a href="#"><i class="fa fa-globe"></i></a>
+	</div>
+
 	<!-- jQuery -->
 	<script src="vendor/jquery/jquery.min.js"></script>
 
@@ -606,6 +624,7 @@
 
 	<!-- Theme JavaScript -->
 	<script src="js/creative.min.js"></script>
+	<script type="text/javascript" src="js/homepage.js"></script>
 
 </body>
 

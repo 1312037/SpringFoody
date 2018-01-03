@@ -1,0 +1,264 @@
+body {
+	background-color: #f2f2f2;
+}
+
+.btn-info a {
+	text-transform: none;
+}
+
+/*sidenav hover
+====================================================*/
+#mySidenav a {
+	position: absolute;
+	left: -80px;
+	transition: 0.3s;
+	padding: 15px;
+	width: 100px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	border-radius: 0 5px 5px 0;
+	z-index: 
+}
+
+#mySidenav  a:hover {
+	left: 0;
+	background-color: black;
+}
+
+#myabout {
+	top: 20px;
+	background-color: #4CAF50;
+}
+
+#myblog {
+	top: 80px;
+	background-color: #2196F3;
+}
+
+#myprojects {
+	top: 140px;
+	background-color: #f44336;
+}
+
+#mycontact {
+	top: 200px;
+	background-color: #555
+}
+/*end of sidenav hover*/
+
+/*Group button go to top page CSS
+=======================================*/
+.btn-outline:hover {
+	background-color: #E8EAF6;
+}
+
+.icon-bar {
+	background-color: #555;
+	position: fixed;
+	bottom: 2.08%;
+	right: 2.08%;
+	z-index: 1;
+}
+
+.icon-bar a {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 20px;
+}
+
+.icon-bar a:hover {
+	background-color: #4CAF50;
+}
+
+.myButton {
+	background: none;
+	border-radius: 28px;
+	border: 1px solid #FFFFFF;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+	font-size: 16px;
+	/*font-weight: 400;*/
+	padding: 16px 31px;
+	text-decoration: none;
+	text-shadow: rgb(47, 102, 39) 0px 1px 0px;
+}
+
+.myButton:hover {
+	text-decoration: none;
+	background-color: #EB4947;
+	color: #FFFFFF;
+}
+
+.item-background {
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
+/*button search*/
+.btnSearch span {
+	font-size: 18px;
+}
+/*end of button search*/
+
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+.carousel {
+	margin-bottom: 0;
+	padding: 0 40px 30px 40px;
+}
+/* Reposition the controls slightly */
+.carousel-control {
+	left: -12px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* Changes the position of the indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.carousel-indicators li {
+	background: #c0c0c0;
+}
+.carousel-indicators .active {
+	background: #333333;
+}
+
+.hot-deals .container {
+	border: solid;
+	border-width: 1px;
+	border-color: #D7D7D7;
+	border-radius: 5px;
+}
+
+.list-deals {
+	border-bottom: 0px; /*clear css border-bottom of nav-tabs*/
+	overflow: auto;
+	height: 555px;
+	border-top: 1px solid #D5D5D5;
+}
+
+.info-deals {
+	padding: 10px;
+}
+
+.item-promotion {
+	font-size: 13px;
+	color: #047b86;
+	font-weight: 700;
+	margin: 10px 0 0;
+	text-overflow: ellipsis;
+}
+
+.item-name {
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+	margin: 0 0 7px;
+}
+
+.txt-elipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 100%;
+}
+
+.item-address {
+	font-size: 12px;
+	color: #888;
+}
+
+.btn-readmore {
+	color: #FFFFFF;
+	text-transform: none;
+}
+
+.modal-header, h4, .close {
+	background-color: #5cb85c;
+	color:white !important;
+	text-align: center;
+	font-size: 30px;
+	display: block;
+}
+
+.modal-footer {
+	background-color: #f9f9f9;
+	padding: 15px;
+	text-align: right;
+	border-top: 1px solid #e5e5e5;
+}
+
+/*search input*/
+#txtSearch {
+	/*display: none;*/
+	z-index: 1090;
+	border-radius: 5px;
+	border: 1px solid #D5D5D5;
+	padding: 5px;
+	width: 80%;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+
+#txtSearch:hover {
+	border-color: #A6C7FF;
+	border-width: 2px;
+}
+
+.search {
+	/*padding: 10px 15px;*/
+	display: none;
+}
+
+.btnSearch > span, .btnCloseSearch > span {
+	font-size: 20px;
+	padding: 5px;
+}
+
+.btnSearch:hover {
+	border-color: #F05F40;
+}
+
+.btnSearch, .btnCloseSearch {
+	width: 40px;
+	border: 1px solid #D5D5D5;
+	border-radius: 5px;
+	background: none;
+}
+/*end of search input*/
+
+/*shopping-cart, notice, signup, login*/
+.btnCart, .btnNotice {
+	text-align: center;
+	width: 40px;
+}
+
+.btnNotice > span, .btnCart > span {
+	font-size: 16px;
+}
+
+.btnCart, .btnNotice, .signup, .login {
+	border: 1px solid #D5D5D5;
+	border-radius: 5px;
+	padding: 5px !important;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.btnCart:hover, .btnNotice:hover, .btnSearch:hover, .btnCloseSearch:hover, .signup:hover, .login:hover {
+	border-color: #F05F40;
+	color: #F05F40;
+}
+/*end of sign up, login*/
